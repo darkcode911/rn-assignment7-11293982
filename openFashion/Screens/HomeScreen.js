@@ -47,7 +47,7 @@ const HomeScreen = ({ navigation }) => {
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate("Cart")}>
             <Image
-              source={require("../images/shoppingBag.png")}
+              source={require("../images/shopping bag.png")}
               style={styles.headerIcon}
             />
           </TouchableOpacity>
