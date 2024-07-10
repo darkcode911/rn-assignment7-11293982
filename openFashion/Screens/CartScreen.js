@@ -28,7 +28,7 @@ const CartScreen = () => {
         <View style={styles.headerIcons}></View>
         <Image source={require("../images/Search.png")} style={styles.searchh} />
         <View style={styles.headerIcons}></View>
-      <Text style={styles.header}>CHECKOUT</Text>
+        <Image source={require("../images/cout.png")} style={styles.cout} />
       <FlatList
         data={cart}
         renderItem={({ item }) => (
@@ -39,7 +39,7 @@ const CartScreen = () => {
               <Text style={styles.price}>${item.price}</Text>
             </View>
             <TouchableOpacity onPress={() => removeFromCart(item)} style={styles.removeButton}>
-              <Text style={styles.removeButtonText}>✖</Text>
+              <Image source={require("../images/remove.png")} style={styles.removeIcon} />
             </TouchableOpacity>
           </View>
         )}
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
   cartItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    padding: 30,
+    padding: 20,
     borderBottomWidth: 1,
     borderColor: '#ccc',
   },
@@ -133,6 +133,9 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
   },
+  cout: {
+    left: 45,
+  }
 });
 
 export default CartScreen;

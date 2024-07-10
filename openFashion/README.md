@@ -23,4 +23,11 @@ Design and User Experience
 
 # Conclusion
 This application exemplifies a basic e-commerce functionality using React Native, showcasing efficient data handling, user-friendly design, and robust navigation and storage solutions.
+ ## screenshots
+ ![homescreen](images/homescreenshot.jpeg)
+ ![drawerscreen](images/drawerscreenshot.jpeg)
+ ![productdetails](images/Productdetailscreenshot.jpeg)
+ ![cartscreen](images/cartcout.jpeg)
+
+
 
