@@ -55,8 +55,12 @@ const HomeScreen = ({ navigation }) => {
       </View>
       <Text style={styles.pageTitle}>OUR STORY</Text>
       <Image
-        source={require("../images/addbutton.png")}
-        style={styles.add}
+        source={require("../images/Listview.png")}
+        style={styles.listview}
+      />
+      <Image 
+        source={require("../images/Filter.png")}
+        style={styles.filter}
       />
       <FlatList
         data={products}
@@ -113,7 +117,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 70,
-    height: 24,
+    height: 27,
   },
   headerIcons: {
     flexDirection: "row",
@@ -128,12 +132,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "left",
     marginVertical: 20,
-  },
-  add: {
-    marginTop: -60,
-    left: 200,
-    width: 205,
-    height: 67,
+    marginBottom: -20,
   },
   productContainer: {
     flex: 1,
@@ -147,7 +146,6 @@ const styles = StyleSheet.create({
   productImage: {
     width: 150,
     height: 200,
-    marginBottom: 10,
   },
   productInfo: {
     alignItems: "center",
@@ -159,32 +157,40 @@ const styles = StyleSheet.create({
   },
   productPrice: {
     fontSize: 14,
-    color: "orange",
-    marginBottom: 10,
+    color: "#888",
   },
   plusButton: {
     position: "absolute",
-    top: 210,
+    bottom: 10,
     right: 10,
+    width: 30,
+    height: 30,
   },
   plusIcon: {
-    width: 24,
-    height: 24,
-    position: "relative",
-    top: -10,
+    width: "100%",
+    height: "100%",
   },
   cartButton: {
     backgroundColor: "#007bff",
     padding: 15,
-    borderRadius: 5,
-    marginTop: 10,
-    alignSelf: "center",
-    width: "90%",
+    borderRadius: 10,
+    alignItems: "center",
+    marginVertical: 20,
   },
   buttonText: {
     color: "#fff",
-    fontSize: 14,
-    textAlign: "center",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  filter: {
+    left:360,
+    top: -20,
+    width: 30,
+  },
+  listview: {
+    left: 330,
+    top:0,
+    width:30,
   },
 });
 
