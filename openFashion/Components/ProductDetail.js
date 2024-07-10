@@ -17,7 +17,7 @@ const ProductDetail = ({ product, addToCart }) => {
         <Image source={require("../images/Logo.png")} style={styles.logo} />
         <View style={styles.headerIcons}>
           <Image source={require("../images/Search.png")} style={styles.search} />
-          <Image source={require("../images/shoppingBag.png")} style={styles.sb} />
+          <Image source={require("../images/shopping bag.png")} style={styles.sb} />
         </View>
       </View>
       <Image source={{ uri: product.image }} style={styles.image} />
@@ -205,6 +205,11 @@ const styles = StyleSheet.create({
     top: 20,
     right: 10,
   },
+  heart: {
+    position: 'absolute',
+    right: 10,
+  },
+  
 });
 
 export default ProductDetail;
