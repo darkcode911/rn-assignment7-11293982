@@ -6,7 +6,7 @@ const CustomDrawerContent = (props) => {
   return (
     <DrawerContentScrollView {...props}>
       <View style={styles.header}>
-        <Text style={styles.headerText}>Melissa Otoo</Text>
+        <Text style={styles.headerText}>Kwaku Ayensu</Text>
       </View>
       <DrawerItemList {...props} />
     </DrawerContentScrollView>

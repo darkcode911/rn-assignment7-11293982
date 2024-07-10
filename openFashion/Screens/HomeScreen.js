@@ -130,8 +130,8 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
   add: {
-    marginTop: -70,
-    left: 140,
+    marginTop: -60,
+    left: 200,
     width: 205,
     height: 67,
   },
@@ -170,6 +170,8 @@ const styles = StyleSheet.create({
   plusIcon: {
     width: 24,
     height: 24,
+    position: "relative",
+    top: -10,
   },
   cartButton: {
     backgroundColor: "#007bff",
