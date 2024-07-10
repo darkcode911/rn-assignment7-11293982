@@ -70,14 +70,15 @@ const styles = StyleSheet.create({
   cartItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    padding: 10,
+    padding: 30,
     borderBottomWidth: 1,
     borderColor: '#ccc',
   },
   image: {
-    width: 50,
-    height: 50,
-    marginRight: 10,
+    width: 70,
+    height: 70,
+    marginRight:15,
+    right:15,
   },
   details: {
     flex: 1,
@@ -87,14 +88,15 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   logo:{
-    left: 120,
+    left: 150,
   },
   price: {
     fontSize: 14,
-    color: '#888',
+    color: 'red',
   },
   removeButton: {
     padding: 10,
+    color:'red',
   },
   removeButtonText: {
     color: 'red',
@@ -114,9 +116,10 @@ const styles = StyleSheet.create({
   totalAmount: {
     fontSize: 18,
     fontWeight: 'bold',
+    color: 'red',
   },
   searchh:{
-    left: 300,
+    left: 360,
     top: -20,
   },
   checkoutButton: {
